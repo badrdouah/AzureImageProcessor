@@ -1,0 +1,26 @@
+﻿@using ImageProcessorWebApp.Models
+@model List<string>
+@{
+    var resolutions = ViewData["resolutions"] as List<ResolutionModel>;
+    var orientation = (orientation)ViewData["orientation"];
+}
+<h2>Iphone</h2>
+
+
+@for (int i = 0; i < resolutions.Count; i++)
+{
+    <div>@resolutions[i].width x @resolutions[i].height</div>
+
+
+    @if (orientation == orientation.landscape)
+    {
+        <img src="@Model[i]" width="200" />
+    }
+    else
+    {
+        <img src="@Model[i]" height="200" />
+    }
+
+    <a class="btn btn-primary" download href="@Model[i]">Download Image</a>
+
+}

@@ -1,0 +1,58 @@
+﻿ 
+@using ImageProcessorWebApp.Models
+
+@model UploadModel
+
+<h2 class="text-center">Upload</h2>
+<p style=" text-indent: 23px;"> This application allows users to easily generate all of the required app store screenshots for their iOS app, without the need for access to multiple devices. Simply upload a single high-resolution screenshot,
+    and our service will automatically generate all of the different sizes and resolutions needed for the App Store.
+    This includes support for all of the latest iPhone and iPad models, ensuring that your app looks great on all devices.
+    Our easy-to-use interface makes it quick and simple to get all of your screenshots created and uploaded to the App Store, saving you time and hassle on photo editing programs. </p>
+<div class="d-flex justify-content-center">
+    <form asp-action="UploadImage" method="post" enctype="multipart/form-data">
+        <span class="text-danger">@Html.ValidationMessage("Error") </span>
+        <input asp-for="Orientation" hidden />
+        <div class="form-group p-2">
+            <input type="File" asp-for="File" accept="image/*" />
+            <span asp-validation-for="File"></span>
+        </div>
+
+        <div class="form-group d-flex p-2">
+            <div class="d-flex">
+                <label class="control-label m-2">Image Type</label>
+                <select asp-for="ImageType" asp-items="@Html.GetEnumSelectList<imageType>()" class="m-auto"></select>
+            </div>
+        </div>
+        <div class="form-group d-flex justify-content-between p-2">
+            <div class="d-flex">
+                <label class="control-label m-2">Landscape</label>
+                <input id="landscape" type="checkbox" onchange="setlandscape()" class="m-auto" />
+            </div>
+            <div class="d-flex">
+                <label class="control-label m-2">Portrait</label>
+                <input id="portrait" type="checkbox" onchange="setportrait()" class="m-auto" />
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary col-12">Upload</button>
+    </form>
+</div>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+        setlandscape();
+    };
+
+    function setportrait() {
+        document.getElementById('Orientation').value = 1;
+        document.getElementById('landscape').checked = false;
+        document.getElementById('portrait').checked = true;
+    }
+
+    function setlandscape() {
+        document.getElementById('Orientation').value = 0;
+        document.getElementById('landscape').checked = true;
+        document.getElementById('portrait').checked = false;
+    }
+ 
+</script>
