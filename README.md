@@ -1,4 +1,4 @@
-# AzureImageProcessor
+# Image Processor
 Can be tested from [here](https://imageprocessor-wa.azurewebsites.net). 
 
 ## Introduction. 
