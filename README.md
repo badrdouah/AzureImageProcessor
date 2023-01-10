@@ -4,13 +4,16 @@ Can be tested from [here](https://imageprocessor-wa.azurewebsites.net).
 ## Introduction. 
 This application allows users to easily generate all of the required app store screenshots for their iOS app, without the need for access to multiple devices. Simply upload a single high-resolution screenshot, and our service will automatically generate all of the different sizes and resolutions needed for the App Store. This includes support for all of the latest iPhone and iPad models, ensuring that your app looks great on all devices. Our easy-to-use interface makes it quick and simple to get all of your screenshots created and uploaded to the App Store, saving you time and hassle on photo editing programs.  
  
+ 
+ ![Schema](https://i.imgur.com/bxSGgzG.png)
+ 
 ## Azure Service Used 
 
 ### Azure Container Registry
 Host my web application docker container image
 
 ### App Service
-Host the web application container image
+Host the web application(.net mvc project) container image, use the image as web portal for application. 
 
 ### Storage Account
 Store the users uploaded images also as the processed images, i have also used queues to store blobs names to be used by a cleaning app function that runs every hour
