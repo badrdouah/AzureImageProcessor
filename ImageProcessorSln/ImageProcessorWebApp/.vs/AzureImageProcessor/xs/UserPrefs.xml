@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{73F2B975-AB3A-4C14-BEE5-BF06A26ACCC7}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorWebApp/Controllers/HomeController.cs" relfile="Controllers/HomeController.cs" line="48" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>../ImageProcessor/CleanFunction.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.ImageProcessorWebApp PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.CleanFunction PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../.nuget/NuGet/NuGet.Config">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Program.cs" />
+      <File FileName="Models/UploadModel.cs" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="appsettings.json" />
+      <File FileName="Models/ResolutionModel.cs" />
+      <File FileName="Views/Home/DownloadImages.cshtml" />
+      <File FileName="Models/OrientationEnum.cs" />
+      <File FileName="Models/ImageTypeEnum.cs" />
+      <File FileName="Dockerfile" />
+      <File FileName="../CleanFunction/Cleaner.cs" />
+      <File FileName="../CleanFunction/CleanFunction.csproj" />
+      <File FileName="../../../../.nuget/NuGet/NuGet.Config" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AzureImageProcessor" expanded="True" selected="True">
+            <Node name="ImageProcessorWebApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

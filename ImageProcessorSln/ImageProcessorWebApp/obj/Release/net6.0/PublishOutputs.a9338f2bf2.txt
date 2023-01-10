@@ -1,0 +1,14 @@
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/ImageProcessorWebApp
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/appsettings.Development.json
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/appsettings.json
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/ImageProcessorWebApp.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/ImageProcessorWebApp.deps.json
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/ImageProcessorWebApp.runtimeconfig.json
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/ImageProcessorWebApp.pdb
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/Azure.Core.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/Azure.Messaging.EventGrid.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/Newtonsoft.Json.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/SixLabors.ImageSharp.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/System.Memory.Data.dll
+/Users/badrdouah/Documents/GitHub/AzureImageProcessor/out/Microsoft.WindowsAzure.Storage.dll
