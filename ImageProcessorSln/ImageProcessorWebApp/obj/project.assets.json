@@ -5804,11 +5804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorWebApp/ImageProcessorWebApp.csproj",
+      "projectUniqueName": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorSln/ImageProcessorWebApp/ImageProcessorWebApp.csproj",
       "projectName": "ImageProcessorWebApp",
-      "projectPath": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorWebApp/ImageProcessorWebApp.csproj",
+      "projectPath": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorSln/ImageProcessorWebApp/ImageProcessorWebApp.csproj",
       "packagesPath": "/Users/badrdouah/.nuget/packages/",
-      "outputPath": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorWebApp/obj/",
+      "outputPath": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorSln/ImageProcessorWebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/badrdouah/.nuget/NuGet/NuGet.Config"

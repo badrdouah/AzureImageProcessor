@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q0uqoFngkKELKwUqAVViVg28mR/PPBt9WYMUnNOYHZ8rcXECh1fjOQSmeFujAwkHYKBO3bJB7bXZs3Zf0A86Sw==",
+  "dgSpecHash": "E10HisTtZE3bT3OkW3QfP7PnA69KDgFBUB8wWZob8hZZrx8iJYpKwz+GOO+4OsTpi5A3tMXAz2zDo3QQbR/dQA==",
   "success": true,
-  "projectFilePath": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorWebApp/ImageProcessorWebApp.csproj",
+  "projectFilePath": "/Users/badrdouah/Documents/GitHub/AzureImageProcessor/ImageProcessorSln/ImageProcessorWebApp/ImageProcessorWebApp.csproj",
   "expectedPackageFiles": [
     "/Users/badrdouah/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/badrdouah/.nuget/packages/azure.messaging.eventgrid/4.12.0/azure.messaging.eventgrid.4.12.0.nupkg.sha512",
